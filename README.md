@@ -22,7 +22,7 @@ This tutorial outlines the post-installation configuration of the open-source he
 Log in to the osTicket ticketing system, using your Admin username and password from the osTicket installation earlier. This will allow you to act as a helpdesk administrator/analyst, taking end-user tickets and working them through to completion, or assigning them to the appropriate individuals or groups as needed. Once you log in, you will be able to act as Admin or as an Agent. As an Admin, you can configure settings on the backend of osTicket and route tickets to individuals or groups. As an Agent, you will work a ticket to completion. 
 </p>
 <p>
-<img src="https://imgur.com/aS5uNc5.png" alt="Admin/Analyst Login">
+<img src="https://imgur.com/aS5uNc5.png" alt="Admin/Analyst Login"/>
 </p>
 <p>
 <img src="

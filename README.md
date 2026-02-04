@@ -25,5 +25,10 @@ Log in to the osTicket ticketing system, using your Admin username and password 
 <img src="https://imgur.com/aS5uNc5.png" alt="Admin/Analyst Login"/>
 </p>
 <p>
-<img src="
+<img src="https://imgur.com/dmh1tmr.png" alt="Administrator"/>
+</p>
+<p>
+<img src="https://imgur.com/upedP3z.png" alt="Agent"/>
+</p>
+
 

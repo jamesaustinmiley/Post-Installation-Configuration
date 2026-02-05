@@ -124,4 +124,23 @@ In osTicket, Service Level Agreements determine how quickly an agent will respon
 <br />
 
 <p>
-In osTicket, 
+In osTicket, Help Topics are used for ticket categorization when users are creating tickets. They will pick the help topic that is associated with their issue which will result in the ticket being routed to the destination where they are most likely to be resolved. As an Administrator, you can add new help topics and edit existing ones. Add five new help topics (Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, and Other).
+</p>
+<p>
+<img src="https://imgur.com/Aq1exSm.png" alt="Business Critical Outage"/>
+</p>
+<p>
+<img src="https://imgur.com/NwBj8jo.png" alt="Personal Computer Issues"/>
+</p>
+<p>
+<img src="https://imgur.com/hYP2cqO.png" alt="Equipment Request"/>
+</p>
+<p>
+<img src="https://imgur.com/nmh2tNW.png" alt="Password Reset"/>
+</p>
+<p>
+<img src="https://imgur.com/vheWGL3.png" alt="Other"/>
+</p>
+<p>
+<img src="https://imgur.com/FhjSDbN.png" alt="New Help Topics"/>
+</p>

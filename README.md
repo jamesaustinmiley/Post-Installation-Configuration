@@ -19,7 +19,7 @@ This tutorial outlines the post-installation configuration of the open-source he
 <h2>Configuration Steps</h2>
 
 <p>
-Log in to the osTicket ticketing system, using your Admin username and password from the osTicket installation earlier. This will allow you to act as a helpdesk administrator/analyst, taking end-user tickets and working them through to completion, or assigning them to the appropriate individuals or groups as needed. Once you log in, you will be able to act as Admin or as an Agent. As an Admin, you can configure settings on the backend of osTicket and route tickets to individuals or groups. As an Agent, you will work a ticket to completion. 
+Log in to the osTicket ticketing system, using your Admin username and password from the osTicket installation earlier. This will allow you to act as a helpdesk administrator/analyst, taking end-user tickets and working them through to completion, or assigning them to the appropriate individuals or groups as needed. Once you log in, you will be able to act as Admin or as an Agent. As an Admin, you can configure settings on the backend of osTicket and route tickets to individuals or groups. Clicking on the Admin panel will take you to the System Settings and Preferences page. As an Agent, you will work a ticket to completion. Clicking on the Agent panel will take you to the Tickets page. 
 </p>
 <p>
 <img src="https://imgur.com/aS5uNc5.png" alt="Admin/Analyst Login"/>
@@ -30,5 +30,42 @@ Log in to the osTicket ticketing system, using your Admin username and password 
 <p>
 <img src="https://imgur.com/upedP3z.png" alt="Agent"/>
 </p>
+<br />
+
+<p>
+In osTicket, Roles define what an agent is allowed to do inside the helpdesk. As an Administrator, you can manage the available roles and even add new ones. When adding a new role, you decide what an agent is able to do with regards to tickets, tasks, and the knowledgebase. Create a new role named Supreme Admin and give it full access. 
+</p>
+<p>
+<img src="https://imgur.com/dRNtDFL.png" alt="Add New Role"/>
+</p>
+<p>
+<img src="https://imgur.com/Qg4BUK5.png" alt="Tickets"/>
+</p>
+<p>
+<img src="https://imgur.com/HNzsUkY.png" alt="Tasks"/>
+</p>
+<p>
+<img src="https://imgur.com/YtVsvGA.png" alt="Knowledgebase"/>
+</p>
+<p>
+<img src="https://imgur.com/Ef4ad2D.png" alt="Supreme Admin"/>
+</p>
+<br />
+
+<p>
+In osTicket, Departments represent a specific group or responisibility area and control who handles which tickets inside of the help desk. Each ticket is assigned to one department, and that department determines who can see it, work on it, and manage it. As an Administrator, you can manage the available departments and add new ones. When adding a new department, you configure the Settings and decide which agents have access. Create a new department named SysAdmins. In Settings, make sure that SysAdmins is a Top Level Department instead of Support. 
+</p>
+<p>
+<img src="https://imgur.com/8yTOp5o.png" alt="Settings"/>
+</p>
+<p>
+<img src="https://imgur.com/yaEHJpr.png" alt="Access"/>
+</p>
+<p>
+<img src="https://imgur.com/LtgtN2Q.png" alt="SysAdmins"/>
+</p>
+<br />
+
+<p>
 
 

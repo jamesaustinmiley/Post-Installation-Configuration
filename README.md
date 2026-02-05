@@ -107,4 +107,21 @@ In osTicket, Users are the clients/end-users who submit tickets. Agents are staf
 <br />
 
 <p>
-In osTicket, Service Level Agreements
+In osTicket, Service Level Agreements determine how quickly an agent will respond to a ticket, how quickly the issue will be resolved, and whether the ticket will be worked only during business hours or 24/7. As an Administrator, you can add or edit SLA plans. Add three new SLA plans (Sev-A, Sev-B, and Sev-C).
+</p>
+<p>
+<img src="https://imgur.com/xi33Sbr.png" alt="Sev-A"/>
+</p>
+<p>
+<img src="https://imgur.com/FpNcl6d.png" alt="Sev-B"/>
+</p>
+<p>
+<img src="https://imgur.com/XngAkYP.png" alt="Sev-C"/>
+</p>
+<p>
+<img src="https://imgur.com/yJ31aas.png" alt="SLAs"/>
+</p>
+<br />
+
+<p>
+In osTicket, 

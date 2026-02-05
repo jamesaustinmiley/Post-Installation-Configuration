@@ -81,4 +81,30 @@ In osTicket, Teams are temporary of specialized groups that can involve agents f
 <br />
 
 <p>
+In osTicket, Users are the clients/end-users who submit tickets. Agents are staff members who respond to tickets and work them to completion. As an Administrator, you can add new users and decide who gets to create tickets. Also, you can add new agents and manage their account, their level of access, their permissions, and what teams they are a part of. Add two new users (Karen and Ken) and two new agents (Jane and John). 
+</p>
+<p>
+<img src="https://imgur.com/2i0qGnK.png" alt="Users Settings"/>
+</p>
+<p>
+<img src="https://imgur.com/7s948qA.png" alt="New User"/>
+</p>
+<p>
+<img src="https://imgur.com/hLGuElY.png" alt="Agent Account"/>
+</p>
+<p>
+<img src="https://imgur.com/XCp3uOh.png" alt="Agent Access"/>
+</p>
+<p>
+<img src="https://imgur.com/aWkkGj2.png" alt="Agent Permissions"/>
+</p>
+<p>
+<img src="https://imgur.com/ThxCgHs.png" alt="Agent Assigned Teams"/>
+</p>
+<p>
+<img src="https://imgur.com/BfiUNC3.png" alt="Agents"/>
+</p>
+<br />
 
+<p>
+In osTicket, Service Level Agreements

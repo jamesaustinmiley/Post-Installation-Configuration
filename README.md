@@ -67,5 +67,18 @@ In osTicket, Departments represent a specific group or responisibility area and 
 <br />
 
 <p>
+In osTicket, Teams are temporary of specialized groups that can involve agents from multiple departments. A ticket can be assigned to a team instead of a single agent. As an Administrator, you can manage team information and members. Create a new team named Online Banking. 
+</p>
+<p>
+<img src="https://imgur.com/v8Ekero.png" alt="Team"/>
+</p>
+<p>
+<img src="https://imgur.com/WQqgex4.png" alt="Members"/>
+</p>
+<p>
+<img src="https://imgur.com/qRSiwUF.png" alt="Online Banking"/>
+</p>
+<br />
 
+<p>
 

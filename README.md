@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Installation Configuration</h1>
-This tutorial outlines the post-installation configuration of the open-source help desk ticketing system osTicket. OsTicket is used to manage both internal and external requests via e-mail, phone, or the company website. These requests are then converted into tickets that can be tracked and worked to completion. <br />
+This tutorial outlines the post-installation configuration of the open-source help desk ticketing system osTicket. OsTicket is used to manage both internal and external requests via e-mail, phone, or the company website. These requests are then converted into tickets that can be tracked and completed. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -19,7 +19,7 @@ This tutorial outlines the post-installation configuration of the open-source he
 <h2>Configuration Steps</h2>
 
 <p>
-Log in to the osTicket ticketing system, using your Admin username and password from the osTicket installation earlier. This will allow you to act as a helpdesk administrator/analyst, taking end-user tickets and working them through to completion, or assigning them to the appropriate individuals or groups as needed. Once you log in, you will be able to act as Admin or as an Agent. As an Admin, you can configure settings on the backend of osTicket and route tickets to individuals or groups. Clicking on the Admin panel will take you to the System Settings and Preferences page. As an Agent, you will work a ticket to completion. Clicking on the Agent panel will take you to the Tickets page. 
+Log in to the osTicket ticketing system, using your Admin username and password from the osTicket installation earlier. This will allow you to act as a helpdesk administrator/analyst, handling end-user tickets through to completion or assigning them to the appropriate individuals or groups as needed. Once you log in, you will be able to act as Admin or as an Agent. As an Admin, you can configure settings on the backend of osTicket and route tickets to individuals or groups. Clicking on the Admin panel will take you to the System Settings and Preferences page. As an Agent, you will either work on a ticket to completion or pass it on to a higher level. Clicking on the Agent panel will take you to the Tickets page.
 </p>
 <p>
 <img src="https://imgur.com/aS5uNc5.png" alt="Admin/Analyst Login"/>
@@ -33,7 +33,7 @@ Log in to the osTicket ticketing system, using your Admin username and password 
 <br />
 
 <p>
-In osTicket, Roles define what an agent is allowed to do inside the helpdesk. As an Administrator, you can manage the available roles and even add new ones. When adding a new role, you decide what an agent is able to do with regards to tickets, tasks, and the knowledgebase. Create a new role named Supreme Admin and give it full access. 
+In osTicket, Roles define what an agent is allowed to do within the help desk. As an Administrator, you can manage the available roles and even add new ones. When adding a new role, you decide what an agent can do regarding tickets, tasks, and the knowledge base. Create a new role named Supreme Admin and give it full access.
 </p>
 <p>
 <img src="https://imgur.com/dRNtDFL.png" alt="Add New Role"/>
@@ -53,7 +53,7 @@ In osTicket, Roles define what an agent is allowed to do inside the helpdesk. As
 <br />
 
 <p>
-In osTicket, Departments represent a specific group or responisibility area and control who handles which tickets inside of the help desk. Each ticket is assigned to one department, and that department determines who can see it, work on it, and manage it. As an Administrator, you can manage the available departments and add new ones. When adding a new department, you configure the Settings and decide which agents have access. Create a new department named SysAdmins. In Settings, make sure that SysAdmins is a Top Level Department instead of Support. 
+In osTicket, Departments represent a specific group or responsibility area and control which agents handle which tickets in the help desk. Each ticket is typically assigned to a single department, which determines who can view, work on, and manage it. As an Administrator, you can manage the available departments and add new ones. When adding a new department, you configure the settings and decide which agents have access. Create a new department named SysAdmins. In Settings, ensure that SysAdmins is a Top-Level Department rather than a Support Department.
 </p>
 <p>
 <img src="https://imgur.com/8yTOp5o.png" alt="Settings"/>
@@ -67,7 +67,7 @@ In osTicket, Departments represent a specific group or responisibility area and 
 <br />
 
 <p>
-In osTicket, Teams are temporary of specialized groups that can involve agents from multiple departments. A ticket can be assigned to a team instead of a single agent. As an Administrator, you can manage team information and members. Create a new team named Online Banking. 
+In osTicket, Teams are specialized groups that can involve agents from multiple departments. A ticket can be assigned to a team instead of a single agent or department. As an Administrator, you can manage team information and members. Create a new team named Online Banking. 
 </p>
 <p>
 <img src="https://imgur.com/v8Ekero.png" alt="Team"/>
@@ -124,7 +124,7 @@ In osTicket, Service Level Agreements determine how quickly an agent will respon
 <br />
 
 <p>
-In osTicket, Help Topics are used for ticket categorization when users are creating tickets. They will pick the help topic that is associated with their issue which will result in the ticket being routed to the destination where they are most likely to be resolved. As an Administrator, you can add new help topics and edit existing ones. Add five new help topics (Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, and Other).
+In osTicket, Help Topics are used to categorize tickets when users create them. They will select the help topic associated with their issue, which will route the ticket to the destination where it is most likely to be resolved. As an Administrator, you can add new help topics and edit existing ones. Add five new help topics (Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, and Other).
 </p>
 <p>
 <img src="https://imgur.com/Aq1exSm.png" alt="Business Critical Outage"/>

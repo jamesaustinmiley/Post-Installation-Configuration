@@ -19,84 +19,108 @@ This tutorial outlines the post-installation configuration of the open-source he
 <h2>Configuration Steps</h2>
 
 <p>
-
+Log in to the osTicket ticketing system admin/analyst page, using your Admin username and password from the osTicket installation earlier. 
 </p>
 <p>
-<img src="https://imgur.com/aS5uNc5.png" alt="Admin/Analyst Login"/>
+<img src="https://imgur.com/qlM9xap.png" alt="Admin/Analyst Link"/>
 </p>
 <p>
-<img src="https://imgur.com/dmh1tmr.png" alt="Administrator"/>
+<img src="https://imgur.com/qbb1WUZ.png" alt="Admin/Analyst Login"/>
 </p>
 <p>
-<img src="https://imgur.com/upedP3z.png" alt="Agent"/>
-</p>
-<br />
-
-<p>
-In osTicket, Roles define what an agent is allowed to do within the help desk. As an Administrator, you can manage the available roles and even add new ones. When adding a new role, you decide what an agent can do regarding tickets, tasks, and the knowledge base. Create a new role named Supreme Admin and give it full access.
+Switch from the Agent panel to the Admin panel. An Agent can only work tickets whereas an Administrator has full control over system configuration. 
 </p>
 <p>
-<img src="https://imgur.com/dRNtDFL.png" alt="Add New Role"/>
-</p>
-<p>
-<img src="https://imgur.com/Qg4BUK5.png" alt="Tickets"/>
-</p>
-<p>
-<img src="https://imgur.com/HNzsUkY.png" alt="Tasks"/>
-</p>
-<p>
-<img src="https://imgur.com/YtVsvGA.png" alt="Knowledgebase"/>
-</p>
-<p>
-<img src="https://imgur.com/Ef4ad2D.png" alt="Supreme Admin"/>
+<img src="https://imgur.com/tklh7u2.png" alt="Agent to Admin"/>
 </p>
 <br />
 
 <p>
-In osTicket, Departments represent a specific group or responsibility area and control which agents handle which tickets in the help desk. Each ticket is typically assigned to a single department, which determines who can view, work on, and manage it. As an Administrator, you can manage the available departments and add new ones. When adding a new department, you configure the settings and decide which agents have access. Create a new department named SysAdmins. In Settings, ensure that SysAdmins is a Top-Level Department rather than a Support Department.
+In osTicket, Roles define what an agent is allowed to do within the help desk. As an Administrator, you can manage the available roles and even add new ones. 
 </p>
 <p>
-<img src="https://imgur.com/8yTOp5o.png" alt="Settings"/>
+<img src="https://imgur.com/PEV6s2l.png" alt="Roles"/>
 </p>
 <p>
-<img src="https://imgur.com/yaEHJpr.png" alt="Access"/>
+<img src="https://imgur.com/7dwoDGC.png" alt="Add New Role"/>
 </p>
 <p>
-<img src="https://imgur.com/LtgtN2Q.png" alt="SysAdmins"/>
+Add a new role, named Supreme Admin, and give it full permissions with regards to tickets, tasks, and the knowledgebase. 
+</p>
+<p>
+<img src="https://imgur.com/XnxASEJ.png" alt="Supreme Admin"/>
+</p>
+<p>
+<img src="https://imgur.com/0JwhLdH.png" alt="Tickets"/>
+</p>
+<p>
+<img src="https://imgur.com/gbOHZUY.png" alt="Tasks"/>
+</p>
+<p>
+<img src="https://imgur.com/gDJ1ymF.png" alt="Knowledgebase"/>
+</p>
+<p>
+<img src="https://imgur.com/qnkSFoV.png" alt="New Role"/>
 </p>
 <br />
 
 <p>
-In osTicket, Teams are specialized groups that can involve agents from multiple departments. A ticket can be assigned to a team instead of a single agent or department. As an Administrator, you can manage team information and members. Create a new team named Online Banking. 
+In osTicket, Departments represent a specific group or responsibility area and control which agents handle which tickets in the help desk. They are the primary way tickets are organized and assigned. As an Administrator, you can manage the available departments and add new ones. 
 </p>
 <p>
-<img src="https://imgur.com/v8Ekero.png" alt="Team"/>
+<img src="https://imgur.com/J58lOTJ.png" alt="Departments"/>
 </p>
 <p>
-<img src="https://imgur.com/WQqgex4.png" alt="Members"/>
+<img src="https://imgur.com/HkFnjFn.png" alt="Add New Department"/>
 </p>
 <p>
-<img src="https://imgur.com/qRSiwUF.png" alt="Online Banking"/>
+Create a new department named SysAdmins. In Settings, ensure that SysAdmins is a Top-Level Department rather than a Support Department.
+</p>
+<p>
+<img src="https://imgur.com/y21Nl2W.png" alt="SysAdmins"/>
+</p>
+<p>
+<img src="https://imgur.com/BDh7oWZ.png" alt="New Department"/>
 </p>
 <br />
 
 <p>
-In osTicket, Users are the clients/end-users who submit tickets. Agents are staff members who respond to tickets and work them to completion. As an Administrator, you can add new users and decide who gets to create tickets. Also, you can add new agents and manage their account, their level of access, their permissions, and what teams they are a part of. Add two new users (Karen and Ken) and two new agents (Jane and John). 
+In osTicket, Teams are specialized groups that can involve agents from multiple departments. As an Administrator, you can manage the available teams and add new ones. 
 </p>
 <p>
-<img src="https://imgur.com/2i0qGnK.png" alt="Users Settings"/>
+<img src="https://imgur.com/aoX6mOs.png" alt="Teams"/>
 </p>
 <p>
-<img src="https://imgur.com/7s948qA.png" alt="New User"/>
+<img src="https://imgur.com/hqpS7iT.png" alt="Add New Team"/>
 </p>
 <p>
-<img src="https://imgur.com/hLGuElY.png" alt="Agent Account"/>
+Create a new team named Online Banking. 
 </p>
 <p>
-<img src="https://imgur.com/XCp3uOh.png" alt="Agent Access"/>
+<img src="https://imgur.com/QkmZd3Z.png" alt="Online Banking"/>
 </p>
 <p>
-<img src="https://imgur.com/aWkkGj2.png" alt="Agent Permissions"/>
+<img src="https://imgur.com/CWWuWBj.png" alt="New Team"/>
+</p>
+<br />
+
+<p>
+In osTicket, Users are the clients/end-users who submit tickets. Allow all users to create tickets by unchecking the Registration Required box in the Users Settings section. 
+</p>
+<p>
+<img src="https://imgur.com/ym1LG1i.png" alt="Users Settings"/>
+</p>
+<p>
+In osTicket, Agents are staff members who respond to tickets and work them to completion. As an Administrator, you can manage agent accounts and add new agents.
+</p>
+<p>
+<img src="https://imgur.com/0irM00R.png" alt="Agents"/>
+</p>
+<p>
+<img src="https://imgur.com/WwXbi61.png" alt="Add New Agent"/>
+</p>
+<p>
+Add Jane Doe as a new agent. 
 </p>
 <p>
 <img src="https://imgur.com/ThxCgHs.png" alt="Agent Assigned Teams"/>

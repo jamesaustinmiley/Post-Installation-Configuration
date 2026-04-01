@@ -120,13 +120,71 @@ In osTicket, Agents are staff members who respond to tickets and work them to co
 <img src="https://imgur.com/WwXbi61.png" alt="Add New Agent"/>
 </p>
 <p>
-Add Jane Doe as a new agent. 
+Add Jane Doe as a new agent, with her own account and password. 
 </p>
 <p>
-<img src="https://imgur.com/ThxCgHs.png" alt="Agent Assigned Teams"/>
+<img src="https://imgur.com/8MAQL00.png" alt="Jane Doe"/>
 </p>
 <p>
-<img src="https://imgur.com/BfiUNC3.png" alt="Agents"/>
+<img src="https://imgur.com/vrbHlUL.png" alt="Jane Doe Password"/>
+</p>
+<p>
+Assign Jane Doe to the SysAdmins Department in the role of Supreme Admin.
+</p>
+<p>
+<img src="https://imgur.com/qnCjyHH.png" alt="Jane Doe Access"/>
+</p>
+<p>
+Assign permissions to Jane Doe with regards to user accounts. 
+</p>
+<p>
+<img src="https://imgur.com/RLZdPLi.png" alt="Jane Doe Permissions"/>
+</p>
+<p>
+Assign Jane Doe to the Online Banking Team. 
+</p>
+<p>
+<img src="https://imgur.com/jWVvLlk.png" alt="Jane Doe Teams"/>
+</p>
+<p>
+Add John Doe as a new agent, with his own account and password. 
+<img src="https://imgur.com/XIGiI7C.png" alt="John Doe"/>
+</p>
+<p>
+Assign John Doe to the Support Department with All Access.
+</p>
+<p>
+<img src="https://imgur.com/oiwYT6h.png" alt="John Doe Access"/>
+</p>
+<p>
+Assign permissions to John Doe with regards to user accounts. 
+</p>
+<p>
+<img src="https://imgur.com/Ktyn5ZU.png" alt="John Doe Permissions"/>
+</p>
+<p>
+Assign John Doe to the Online Banking Team. 
+</p>
+<p>
+<img src="https://imgur.com/BoUVO3u.png" alt="John Doe Teams"/>
+</p>
+<p>
+<img src="https://imgur.com/n9SbJ3j.png" alt="New Agents"/>
+</p>
+<p>
+Switch to the Agent panel and add two new Users named Karen and Ken. 
+</p>
+<p>
+<img src="https://imgur.com/RDtyGSx.png" alt="Users"/>
+</p>
+<p>
+<img src="https://imgur.com/heTJoc8.png" alt="Karen"/>
+</p>
+<p>
+<img src="https://imgur.com/5obBj8l.png" alt="Ken"/>
+</p>
+<p>
+<img src="https://imgur.com/Ktzm4GS.png" alt="New Users"/>
 </p>
 <br />
 

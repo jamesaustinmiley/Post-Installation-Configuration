@@ -189,40 +189,76 @@ Switch to the Agent panel and add two new Users named Karen and Ken.
 <br />
 
 <p>
-In osTicket, Service Level Agreements determine how quickly an agent will respond to a ticket, how quickly the issue will be resolved, and whether the ticket will be worked only during business hours or 24/7. As an Administrator, you can add or edit SLA plans. Add three new SLA plans (Sev-A, Sev-B, and Sev-C).
+In osTicket, Service Level Agreements determine how quickly tickets shoudld be responded to and resolved. As an Administrator, you can add or edit SLA plans. Switch back to the Administrator panel. 
 </p>
 <p>
-<img src="https://imgur.com/xi33Sbr.png" alt="Sev-A"/>
+<img src="https://imgur.com/7gIvbbL.png" alt="SLA"/>
 </p>
 <p>
-<img src="https://imgur.com/FpNcl6d.png" alt="Sev-B"/>
+<img src="https://imgur.com/SmjLQ9o.png" alt="Add New SLA Plan"/>
 </p>
 <p>
-<img src="https://imgur.com/XngAkYP.png" alt="Sev-C"/>
+Add a new SLA plan called Sev-A. This will be applied to the worst-case scenario ticket that needs to be responded to within an hour and will be worked on 24/7 until completion. 
 </p>
 <p>
-<img src="https://imgur.com/yJ31aas.png" alt="SLAs"/>
+<img src="https://imgur.com/pKpMUEh.png" alt="Sev-A"/>
+</p>
+<p>
+Add a new SLA plan called Sev-B. This will be applied to tickets that need to be responded to within 4 hours and will be worked on 24/7 until completion. 
+</p>
+<p>
+<img src="https://imgur.com/o6MJuaT.png" alt="Sev-B"/>
+</p>
+<p>
+Add a new SLA plan called Sev-C. This will be applied to tickets that need to be responded to within 8 hours and only need to be worked during business hours Monday through Friday. 
+</p>
+<p>
+<img src="https://imgur.com/bxBgA6s.png alt="Sev-C"/>
+</p>
+<p>
+<img src="https://imgur.com/vMKzfK3.png alt="New SLA Plans"/>
 </p>
 <br />
 
 <p>
-In osTicket, Help Topics are used to categorize tickets when users create them. They will select the help topic associated with their issue, which will route the ticket to the destination where it is most likely to be resolved. As an Administrator, you can add new help topics and edit existing ones. Add five new help topics (Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, and Other).
+In osTicket, Help Topics are used to categorize tickets when users create them. As an Administrator, you can add new help topics and edit existing ones. 
 </p>
 <p>
-<img src="https://imgur.com/Aq1exSm.png" alt="Business Critical Outage"/>
+<img src="https://imgur.com/9pK6gWs.png" alt="Help Topics"/>
 </p>
 <p>
-<img src="https://imgur.com/NwBj8jo.png" alt="Personal Computer Issues"/>
+<img src="https://imgur.com/gITq8Vf.png" alt="Add New Help Topic"/>
 </p>
 <p>
-<img src="https://imgur.com/hYP2cqO.png" alt="Equipment Request"/>
+Add a new Help Topic named Business Critical Outage with Report a Problem as the Parent Topic. 
 </p>
 <p>
-<img src="https://imgur.com/nmh2tNW.png" alt="Password Reset"/>
+<img src="https://imgur.com/00u1MEA.png" alt="Business Critical Outage"/>
 </p>
 <p>
-<img src="https://imgur.com/vheWGL3.png" alt="Other"/>
+Add a new Help Topic named Personal Computer Issues with Report a Problem as the Parent Topic. 
 </p>
 <p>
-<img src="https://imgur.com/FhjSDbN.png" alt="New Help Topics"/>
+<img src="https://imgur.com/8R0dln6.png" alt="Personal Computer Issues"/>
+</p>
+<p>
+Add a new Help Topic named Equipment Request with General Inquiry as the Parent Topic. 
+</p>
+<p>
+<img src="https://imgur.com/s7AGerl.png" alt="Equipment Request"/>
+</p>
+<p>
+Add a new Help Topic named Password Reset with Report a Problem as the Parent Topic. 
+</p>
+<p>
+<img src="https://imgur.com/QSPomoI.png" alt="Password Reset"/>
+</p>
+<p>
+Add a new Help Topic named Other with General Inquiry as the Parent Topic. 
+</p>
+<p>
+<img src="https://imgur.com/kxl7skR.png" alt="Other"/>
+</p>
+<p>
+<img src="https://imgur.com/Vt9dqgf.png" alt="New Help Topics"/>
 </p>

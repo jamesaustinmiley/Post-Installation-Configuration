@@ -19,7 +19,7 @@ This tutorial outlines the post-installation configuration of the open-source he
 <h2>Configuration Steps</h2>
 
 <p>
-Log in to the osTicket ticketing system admin/analyst page, using your Admin username and password from the osTicket installation earlier. 
+Log in to the osTicket ticketing system Admin/Analyst page, using your Admin username and password from the osTicket installation earlier. 
 </p>
 <p>
 <img src="https://imgur.com/qlM9xap.png" alt="Admin/Analyst Link"/>

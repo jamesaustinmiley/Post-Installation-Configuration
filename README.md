@@ -16,7 +16,7 @@ This tutorial outlines the post-installation configuration of the open-source he
 
 - Windows 11 Pro</b> (25H2)
 
-<h2>Configuration Steps</h2>
+<h2>Steps</h2>
 
 <p>
 Log in to the osTicket ticketing system Admin/Analyst page, using your Admin username and password from the osTicket installation earlier. 

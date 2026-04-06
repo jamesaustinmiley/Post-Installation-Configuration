@@ -11,6 +11,8 @@ This tutorial outlines the post-installation configuration of the open-source he
 - Microsoft Azure 
 - Remote Desktop
 - Internet Information Services (IIS)
+- HeidiSQL
+- osTicket
 
 <h2>Operating Systems Used </h2>
 

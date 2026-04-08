@@ -30,7 +30,7 @@ Log in to the osTicket ticketing system Admin/Analyst page, using your Admin use
 <img src="https://imgur.com/qbb1WUZ.png" alt="Admin/Analyst Login"/>
 </p>
 <p>
-Switch from the Agent panel to the Admin panel. An Agent can only work tickets whereas an Administrator has full control over system configuration. 
+Switch from the Agent panel to the Admin panel by clicking Admin Panel. An Agent can only work tickets whereas an Administrator has full control over system configuration. 
 </p>
 <p>
 <img src="https://imgur.com/tklh7u2.png" alt="Agent to Admin"/>

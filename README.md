@@ -174,7 +174,7 @@ Assign John Doe to the Online Banking Team.
 <img src="https://imgur.com/n9SbJ3j.png" alt="New Agents"/>
 </p>
 <p>
-Switch to the Agent panel and add two new Users named Karen and Ken. 
+Switch to the Agent panel by clicking Agent Panel and add two new Users named Karen and Ken. 
 </p>
 <p>
 <img src="https://imgur.com/RDtyGSx.png" alt="Users"/>
